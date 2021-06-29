@@ -8,6 +8,18 @@ module.exports = {
       type: Text,
       isRequired: true,    
     },
+    key: {
+      type: Text,
+      isRequired: true,    
+    },
+    description: {
+      type: Text,
+      isRequired: true,    
+    },
+    definitionOfDone: {
+      type: Text,
+      isRequired: true,    
+    },
     value: {
         type: Checkbox
     },
