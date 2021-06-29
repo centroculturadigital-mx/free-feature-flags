@@ -25,7 +25,7 @@ module.exports = {
     },
     group: {
         type: Relationship,
-        ref: "FeatureFlagGroup"
+        ref: "FeatureFlagGroup.flags"
     },
     status: {
         type: Select,

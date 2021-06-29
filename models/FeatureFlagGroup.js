@@ -8,9 +8,13 @@ module.exports = {
       type: Text,
       isRequired: true,    
     },
+    key: {
+      type: Text,
+      isRequired: true,    
+    },
     flags: {
         type: Relationship,
-        ref: "FeatureFlag",
+        ref: "FeatureFlag.group",
         many: true
     }
   },
