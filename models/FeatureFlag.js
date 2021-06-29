@@ -17,7 +17,7 @@ module.exports = {
     },
     status: {
         type: Select,
-        options: "TO-DO, READY, REMOVED"
+        options: "IMPLEMENTATION_PENDING, READY, ACTIVE, REMOVAL_PENDING, REMOVED"
     }
   },
   
