@@ -1,6 +1,6 @@
 {
   "name": "@centroculturadigital-mx/free-feature-flags",
-  "version": "0.0.102",
+  "version": "0.0.103",
   "description": "A minimal system for the handling of feature-flags",
   "main": "index.js",
   "scripts": {
