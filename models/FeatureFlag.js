@@ -29,7 +29,7 @@ module.exports = {
     },
     status: {
         type: Select,
-        options: "IMPLEMENTATION_PENDING, READY, ACTIVE, REMOVAL_PENDING, REMOVED"
+        options: "IMPLEMENTATION_PENDING, READY, REMOVAL_PENDING, REMOVED"
     }
   },
   
