@@ -39,6 +39,7 @@ module.exports = {
 
   adminConfig: {
     defaultSort: 'createdAt',
+    defaultColumns: 'key,value,description,definitionOfDone',
   },
 
 };
